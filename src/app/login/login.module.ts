@@ -14,13 +14,14 @@ import { LoginComponent } from './login.component';
 @NgModule({
   declarations: [],
   imports: [
+    ReactiveFormsModule,
     CommonModule,
     MatCardModule,
     MatInputModule,
     MatButtonModule
   ],
   exports: [
-    LoginComponent,
+
     MatCardModule,
     MatInputModule,
     MatButtonModule
