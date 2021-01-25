@@ -6,6 +6,9 @@
 */
 {
   "files": [],
+  "experimentalDecorators": true,
+  "outDir": "./dist",
+  "rootDir": "./src",
   "references": [
     {
       "path": "./tsconfig.app.json"
