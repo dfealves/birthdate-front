@@ -6,11 +6,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button'
 
-
-import { LoginComponent } from './login.component';
-
-
-
 @NgModule({
   declarations: [],
   imports: [
@@ -21,7 +16,6 @@ import { LoginComponent } from './login.component';
     MatButtonModule
   ],
   exports: [
-
     MatCardModule,
     MatInputModule,
     MatButtonModule
